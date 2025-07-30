@@ -1,4 +1,4 @@
-import Header from '../components/health/Header';
+import Header from '../components/Header';
 import HealthSummaryCard from '../components/health/HealthSummaryCard';
 import StatusOverview from '../components/health/StatusOverview';
 import HealthCategoryList from '../components/health/HealthCategoryList';

@@ -1,4 +1,4 @@
-import Header from '../components/records/Header';
+import Header from '../components/Header';
 import HealthInsightsCard from '../components/records/HealthInsightsCard';
 import RecordTiles from '../components/records/RecordTiles';
 import QuickAccess from '../components/records/QuickAccess';

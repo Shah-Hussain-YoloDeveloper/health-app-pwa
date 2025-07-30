@@ -5,6 +5,8 @@ import Insights from './pages/Insights';
 import Improve from './pages/Improve';
 import Trends from './pages/Trends';
 import Records from './pages/Records';
+import WellbeingScalePage from './pages/WellbeingScalePage';
+import TestReportsPage from './pages/TestReportsPage';
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
           <Route path="/improve" element={<Improve />} />
           <Route path="/trends" element={<Trends />} />
           <Route path="/records" element={<Records />} />
+          <Route path="/wellbeing-scale" element={<WellbeingScalePage />} />
+          <Route path="/test-reports" element={<TestReportsPage />} />
         </Routes>
+        
         <BottomNav />
       </div>
     </Router>

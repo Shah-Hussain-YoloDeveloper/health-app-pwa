@@ -10,7 +10,7 @@ export default function QuickAccess() {
     <div className="px-4">
       <h3 className="text-lg mt-9 font-bold text-gray-900 mb-2">Quick Access</h3>
 
-      <div className="flex md:grid overflow-x-auto md:grid-cols-4 gap-5 mt-6 md:overflow-visible">
+      <div className="flex md:grid overflow-x-auto hide-scrollbar md:grid-cols-4 gap-5 mt-6 md:overflow-visible">
         {quickLinks.map(({ label, icon }) => {
           const isLarge = label === 'Health Guide' || label === 'Wellbeing Scale';
 
